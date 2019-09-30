@@ -1,6 +1,6 @@
 # laravel-todo
 
-A simple to do application in laravel. This project uses laravel 6.
+A simple to do application in laravel with mysql implementation. This project uses laravel 6.
 
 ## Prerequisites Components
 
