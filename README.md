@@ -33,4 +33,8 @@ A simple to do application in laravel with mysql implementation. This project us
 
 4. In your newly created .env file configure the database to your local machine settings. Example **DB_DATABASE=YOUR_DATABASE_NAME**
 
-5. In your terminal or command prompt, browse to the cloned repo and run ***php artisan migrate*** followed by ***php artisan serve***.
+5. In your terminal or command prompt, browse to the cloned repo and run 
+```bash
+php artisna migrate
+php artisan serve
+```
