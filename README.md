@@ -42,3 +42,14 @@ php artisan serve
 
 ## Screenshots
 
+### Creating
+
+![Create](https://github.com/dambar08/laravel-todo/blob/master/screenshots/create.png)
+
+### Home
+
+![Home](https://github.com/dambar08/laravel-todo/blob/master/screenshots/ui-added.png)
+
+### Error
+
+![Error](https://github.com/dambar08/laravel-todo/blob/master/screenshots/error.png)
