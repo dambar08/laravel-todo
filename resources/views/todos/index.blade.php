@@ -14,8 +14,6 @@
                     <button type="button" class="btn btn-primary d-flex align-items-center">
                         <i class="fas fa-plus text-white mr-1"></i>
                         Add</button></a>
-
-
             </div>
         </div>
 
@@ -30,7 +28,15 @@
             <tbody>
                 @foreach ($todos as $todo)
                 <tr>
-                    <td>{{$todo->title}}</td>
+                    <td>
+                        @if ($todo->completed)
+                        <del>
+                            {{$todo->title}}
+                        </del>
+                        @else
+                        {{$todo->title}}
+                        @endif
+                    </td>
                     <td>
                         <a href="/todos/{{$todo->id}}/edit" class="btn btn-success"><i class="far fa-edit text-white">
                                 Edit</a></i>
