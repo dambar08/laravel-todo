@@ -53,3 +53,7 @@ php artisan serve
 ### Error
 
 ![Error](https://github.com/dambar08/laravel-todo/blob/master/screenshots/error.png)
+
+### Completed
+
+![Error](https://github.com/dambar08/laravel-todo/blob/master/screenshots/completed.png)
