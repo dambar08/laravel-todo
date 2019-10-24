@@ -29,16 +29,13 @@ A simple to do application in laravel with mysql implementation. This project us
 
 2. Open the cloned project in your favourite text editor.
 
-3. Copy your *.env.example* file and paste it in the same directory path and change the name to *.env* .
-
-4. In your newly created .env file configure the database to your local machine settings. Example **DB_DATABASE=YOUR_DATABASE_NAME**
-
-5. In your terminal or command prompt, browse to the cloned repo and run.
+4. In your terminal or command prompt, browse to the cloned repo and run.
 
 ```bash
 php artisan migrate
 php artisan serve
 ```
+5. Configure the .evn file mysql settings according to your system.
 
 ## Debugging
 
